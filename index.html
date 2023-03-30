@@ -38,15 +38,31 @@
     />
   </head>
   <body>
+    <!-- CSS Grid Layout -->
     <div class="box-wrapper">
       <div class="outer-box">
         <div class="inner-box">
-          <img
-            src="images/image-equilibrium.jpg"
-            alt="image of a cube"
-            class="img-cube"
-          />
-          <p class="text1">Equilibrium #3429</p>
+          <!-- Image section -->
+          <div class="img-section">
+            <img
+              src="images/image-equilibrium.jpg"
+              alt="image of a cube"
+              class="img-cube"
+            />
+            <div class="overlay">
+              <img
+                class="img-view"
+                src="images/icon-view.svg"
+                alt="icon view"
+              />
+            </div>
+          </div>
+
+          <!-- Text section -->
+
+          <button type="button" class="btn button1">
+            <strong>Equilibrium #3429</strong>
+          </button>
           <p class="text2">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -80,7 +96,12 @@
               src="images/image-avatar.png"
               alt="profile picture of jules Wyvern"
             />
-            Creation of <span class="text6">Jules Wyvern</span>
+            Creation of
+            <span class="text6"
+              ><button type="button" class="btn button2">
+                Jules Wyvern
+              </button></span
+            >
           </span>
         </div>
       </div>
